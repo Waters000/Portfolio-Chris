@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useCallback} from 'react'
+import confetti from "https://cdn.skypack.dev/canvas-confetti@1";
 
 
 function Resume() {
@@ -15,7 +16,10 @@ function Resume() {
   const displayMessage = useCallback(() => {
     setThankyou("You downloaded resume....thank you!")
     
-  
+    confetti({
+      particleCount: 150,
+      spread: 60
+    });
   }, []);
 
 
