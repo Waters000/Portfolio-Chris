@@ -18,7 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          <img class="chris-image" src={require(`../assets/profile/chris-waters.jpg`)} alt="Chris Waters"/>
+          <img className="chris-image" src={require(`../assets/profile/chris-waters.jpg`)} alt="Chris Waters"/>
         Chris Waters Resume</a>
       </li>
       <div className="nav">
