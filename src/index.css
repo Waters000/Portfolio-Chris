@@ -20,7 +20,10 @@ code {
     monospace;
 }
 
-
+.portfoliologo {
+  height: 30px;
+  top: -20px;
+}
 
 
 
@@ -74,40 +77,64 @@ code {
 }
 
 .resume {
+
   align-content: center;
   margin: auto;
   padding-left: 150px;
+   display: flex;
+  flex-wrap: wrap;
 }
 .chris-resume {
-  height: 60%;
-  Width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.listofskills {
+  margin: 20px;
+  
 }
 
 
 .nav {
-  background-color: rgb(255, 218, 218);
+  font-size: x-large;
+  background-color: rgb(220, 239, 255);
   display: flex;
   padding: 30px;
   justify-content: right;
   flex-wrap: wrap;
   width: 60%;
   margin: 7px 0;
+  border-radius: 60px;
 }
 
 
 .form {
   margin: 20px;
   align-items: center;
+  width: 80%;
+  background-color: #fdfdfd;
+  align-items: center;
+
+ 
 
 }
 
-.form input {
-  align-items: center;
-  display: block;
-  margin: auto;
-  margin-bottom: 5px;
-  width: 50%;
-  height: 35px;
+input {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text]:focus, textarea[type=text]:focus {
+  background-color: lightblue;
 }
 
 .welcomebox {
@@ -149,18 +176,21 @@ position: sticky;
 
 .portfolioImage {
   height: 200px;
+  background-color: aqua;
+  opacity: 70%;
 }
 
 .portfolioImage:Hover {
-  height: 220px;
-  opacity: 0%;
+  height: 200px;
+  opacity: 100%;
   background-color: rgb(0, 0, 0);
+ 
+ 
 }
 
 .card {
   height: 300px;
-  background-color: white;
-  margin: 15px;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);  margin: 15px;
 }
 
 body {
@@ -216,9 +246,21 @@ img {
 
 button {
   margin: 5px;
+  font-size: large;
   padding: 0.8rem 1rem;
   font-weight: bold;
   background-color: #00ff00bb;
+  color: white;
+  transform: perspective(100px) translateZ(0%);
+  transition: transform 100ms linear;
+  cursor: pointer;
+}
+.button1 {
+  margin: 5px;
+  font-size: large;
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  background-color: #fffb23bb;
   color: white;
   transform: perspective(100px) translateZ(0%);
   transition: transform 100ms linear;
