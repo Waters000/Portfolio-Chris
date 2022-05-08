@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Chris/static/css/main.c4954727.css",
+    "main.js": "/Portfolio-Chris/static/js/main.47a22590.js",
+    "static/js/787.53f45204.chunk.js": "/Portfolio-Chris/static/js/787.53f45204.chunk.js",
+    "static/media/lordandstanley.png": "/Portfolio-Chris/static/media/lordandstanley.da5d49b3e3cb0f6f0c38.png",
+    "static/media/family.jpg": "/Portfolio-Chris/static/media/family.32301529cd17e6292147.jpg",
+    "static/media/run-buddy.png": "/Portfolio-Chris/static/media/run-buddy.a348e5c59009fbca8597.png",
+    "static/media/hizzil.png": "/Portfolio-Chris/static/media/hizzil.b27ba6e5fc59691e7959.png",
+    "static/media/big-five-personality-test.png": "/Portfolio-Chris/static/media/big-five-personality-test.2fdacadeef621c8fb934.png",
+    "static/media/loanmeahome.png": "/Portfolio-Chris/static/media/loanmeahome.4a9d4105bd62935713c8.png",
+    "static/media/backlink-party.png": "/Portfolio-Chris/static/media/backlink-party.39880ae110d899f597fd.png",
+    "static/media/coinhiz.png": "/Portfolio-Chris/static/media/coinhiz.0300944e728243149fcb.png",
+    "static/media/resume.png": "/Portfolio-Chris/static/media/resume.c5c8494cb4eb76febc1a.png",
+    "static/media/budget-tracker.png": "/Portfolio-Chris/static/media/budget-tracker.59535163dffabbf9ed06.png",
+    "static/media/github.jpg": "/Portfolio-Chris/static/media/github.9cfcdc2d6a4082ad9524.jpg",
+    "static/media/linkedin.jpg": "/Portfolio-Chris/static/media/linkedin.8aa74e0b14b8b11f3102.jpg",
+    "index.html": "/Portfolio-Chris/index.html",
+    "main.c4954727.css.map": "/Portfolio-Chris/static/css/main.c4954727.css.map",
+    "main.47a22590.js.map": "/Portfolio-Chris/static/js/main.47a22590.js.map",
+    "787.53f45204.chunk.js.map": "/Portfolio-Chris/static/js/787.53f45204.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4954727.css",
+    "static/js/main.47a22590.js"
+  ]
+}
